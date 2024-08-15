@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chintu's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chintu Rai</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chintu Rai</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/chintu2.jpg" alt="Chintu Rai profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chintu Rai</h1>
+        <p class="section__text__p2">Software Engineering Student <br> Looking for internships </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/chintuResume.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/chinturai'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/chinturai'"
+          />
+          <img
+            src="./assets/coding.png"
+            alt="My Coding profile"
+            class="icon"
+            onclick="location.href='https://codolio.com/profile/chinturai'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/chintu1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Academics</h3>
+              <p>2nd Year BE Student <br/> Graduating in 2027<br />  9.53 CGPA  </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Engineering <br />Information Sciene and Engineering <br /> Cambridge Institute of Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              🎓I am a Second-year Bachelor of Engineering student pursuing <b>Information Science Engineering</b> at Cambridge Institute of Technology. <br>
+
+🖥Proficient in <b> JAVA </b> Learning <b>Data Structures and Algorithms </b> <br>
+
+🕸 Front End Web Developer <br>
+
+⌨️Open to opportunities for <b>Internships</b> and collaborative projects to further enhance expertise and make meaningful contributions to the tech industry. <br>
+
+📞Connect with me to explore synergies in technology and engineering initiatives. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">TECHNICAL KNOWLEDGE</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/newJAVA.png"
+                  alt="Experience icon"
+                  class="iconJava"
+                />
+                <div>
+                  <h3>JAVA </h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/cpp-removebg-preview.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/dsa.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Structures and Algorithms</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/csfunda.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Comuter Science Fundamentals </h3>
+                  <p>OOPs,DBMS,OS,CN</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/webdev.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web development</h3>
+                  <p>HTML CSS JavaScript</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container" onclick="location.href='https://codolio.com/profile/chinturai'">
+            <p class="section__text__p1">Click here to view my</p>
+            <h2 class="experience-sub-title">
+              Coding Profiles</h2>
+              
+              
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/leetcode.webp"
+                  alt="leetcode icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LeetCode</h3>
+                  <p>100+ Problems</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/gfg.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GeeksForGeeks</h3>
+                  <p>100+ Problems</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/codechef.png"
+                  alt="gfg icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CodeChef</h3>
+                  <p> Competitive Programming </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/interviewbit_icon.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Interview Bit </h3>
+                  <p> Learning CS Fundamentals </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Here you can view the projects which I made during my learning period <br> (I am more focused on DSA XD) </p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/to do list project.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Task Master <br> To-Do List App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/chinturai/TaskMaster'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://chinturai.github.io/TaskMaster/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tic tac toe project.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Tic Tac Toe Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Sorry.html'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='Sorry.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Login Page.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Cambridge University</h2>
+            <h3 class="experience-sub-title project-title"> A UI Design(Figma)</h3>
+            <div class="btn-container">
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/posts/chinturai_project-ui-userinterface-activity-7213170997439389696-7rGm?utm_source=share&utm_medium=member_desktop'"
+              >
+                View the WebPage 
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:chintu.23ise@cambridge.edu.in">chintu.23ise@cambridge.edu.in</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/callsymb.png"
+            alt="Calling Icon icon"
+            class="icon contact-icon"
+          />
+          <p><a> +91 7795855668</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Chintu Rai. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
